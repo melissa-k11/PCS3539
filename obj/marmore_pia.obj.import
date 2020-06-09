@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/marmore_pia.obj-b1a331b14f11e19a9861edef4a687788.mesh"
+
+[deps]
+
+files=[ "res://.import/marmore_pia.obj-b1a331b14f11e19a9861edef4a687788.mesh" ]
+
+source_file="res://obj/marmore_pia.obj"
+dest_files=[ "res://.import/marmore_pia.obj-b1a331b14f11e19a9861edef4a687788.mesh", "res://.import/marmore_pia.obj-b1a331b14f11e19a9861edef4a687788.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

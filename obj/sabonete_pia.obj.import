@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sabonete_pia.obj-9e31437f3b194a72d2cd75ff5b7ca980.mesh"
+
+[deps]
+
+files=[ "res://.import/sabonete_pia.obj-9e31437f3b194a72d2cd75ff5b7ca980.mesh" ]
+
+source_file="res://obj/sabonete_pia.obj"
+dest_files=[ "res://.import/sabonete_pia.obj-9e31437f3b194a72d2cd75ff5b7ca980.mesh", "res://.import/sabonete_pia.obj-9e31437f3b194a72d2cd75ff5b7ca980.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

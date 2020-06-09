@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/abajur.obj-d774ac284015ec5760a89bd0abe893f4.mesh"
+
+[deps]
+
+files=[ "res://.import/abajur.obj-d774ac284015ec5760a89bd0abe893f4.mesh" ]
+
+source_file="res://abajur.obj"
+dest_files=[ "res://.import/abajur.obj-d774ac284015ec5760a89bd0abe893f4.mesh", "res://.import/abajur.obj-d774ac284015ec5760a89bd0abe893f4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

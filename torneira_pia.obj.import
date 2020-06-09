@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/torneira_pia.obj-3919abcb1b538ddb8a1358497c7c91bb.mesh"
+
+[deps]
+
+files=[ "res://.import/torneira_pia.obj-3919abcb1b538ddb8a1358497c7c91bb.mesh" ]
+
+source_file="res://torneira_pia.obj"
+dest_files=[ "res://.import/torneira_pia.obj-3919abcb1b538ddb8a1358497c7c91bb.mesh", "res://.import/torneira_pia.obj-3919abcb1b538ddb8a1358497c7c91bb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

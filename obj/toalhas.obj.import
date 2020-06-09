@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/toalhas.obj-59deffb9d5108009b4e7170ec0a64f91.mesh"
+
+[deps]
+
+files=[ "res://.import/toalhas.obj-59deffb9d5108009b4e7170ec0a64f91.mesh" ]
+
+source_file="res://obj/toalhas.obj"
+dest_files=[ "res://.import/toalhas.obj-59deffb9d5108009b4e7170ec0a64f91.mesh", "res://.import/toalhas.obj-59deffb9d5108009b4e7170ec0a64f91.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

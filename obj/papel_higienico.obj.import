@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/papel_higienico.obj-d6fc87f04e31c59f6392e08fad539cb1.mesh"
+
+[deps]
+
+files=[ "res://.import/papel_higienico.obj-d6fc87f04e31c59f6392e08fad539cb1.mesh" ]
+
+source_file="res://obj/papel_higienico.obj"
+dest_files=[ "res://.import/papel_higienico.obj-d6fc87f04e31c59f6392e08fad539cb1.mesh", "res://.import/papel_higienico.obj-d6fc87f04e31c59f6392e08fad539cb1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

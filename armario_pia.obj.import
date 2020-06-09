@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/armario_pia.obj-4b3d17b46ae49125af81358a3b118cb7.mesh"
+
+[deps]
+
+files=[ "res://.import/armario_pia.obj-4b3d17b46ae49125af81358a3b118cb7.mesh" ]
+
+source_file="res://armario_pia.obj"
+dest_files=[ "res://.import/armario_pia.obj-4b3d17b46ae49125af81358a3b118cb7.mesh", "res://.import/armario_pia.obj-4b3d17b46ae49125af81358a3b118cb7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
