@@ -9,7 +9,8 @@ extends Spatial
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
-func _input(event):
-	if event.is_key_pressed(KEY_1):
-		$"quarto textura".visible = not $"quarto textura".visible
-
+func _input (event):
+	if Input.is_key_pressed(KEY_1):
+		show()
+	elif Input.is_key_pressed(KEY_2):
+		hide()
