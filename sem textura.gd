@@ -1,6 +1,6 @@
 extends Spatial
 
-var sit: int=0
+var quarto: int=0
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -10,15 +10,16 @@ var sit: int=0
 func _ready():
 	pass # Replace with function body.
 func _input (event):
-	if sit&1: show()
-	else:
-		hide()
-		sit=0
+	
 	if Input.is_key_pressed(KEY_1):
-		sit = sit+1
-	print(sit)
+		quarto = quarto+1
+		if quarto&1:
+			if quarto==51:
+				hide()
+				quarto=0
+			else: hide()
+		else: show()
+		
 
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
