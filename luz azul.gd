@@ -18,4 +18,4 @@ func _input (event):
 			player.play()
 			hide()
 			sit =0
-	print(sit)
+
