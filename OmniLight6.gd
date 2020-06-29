@@ -1,10 +1,14 @@
 extends OmniLight
-
+var sit: int=0
 func _ready():
 	pass
+	
 
 func _input (event):
-	if Input.is_key_pressed(KEY_B):
-		show()
-	elif Input.is_key_pressed(KEY_N):
+	if sit&1: show()
+	else:
 		hide()
+		sit=0
+	if Input.is_key_pressed(KEY_U):
+		sit = sit+1
+	print(sit)
