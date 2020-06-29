@@ -14,5 +14,5 @@ func _input (event):
 			$AudioStreamPlayer3D.stop()
 			hide()
 			sit =0
-	print(sit)
+
 
