@@ -1,24 +1,17 @@
 extends Spatial
+var player = AudioStreamPlayer.new()
+var quarto: int=0
 
-var sit: int=0
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 func _input (event):
-	if sit&1: hide()
-	else:
-		show()
-		sit=0
 	if Input.is_key_pressed(KEY_1):
-		sit = sit+1
-	print(sit)
+		quarto = quarto+1
+		if quarto==51: 
+			self.add_child(player)
+			player.stream=load("res://wind01.wav")
+			player.play()
+		if quarto==52:
+			player.stop()
+			quarto=1
 
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
