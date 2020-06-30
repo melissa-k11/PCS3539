@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/235574__simosco__shower.wav-b45fe6fda105f9ddb9ad7d041244cbc5.sample"
+
+[deps]
+
+source_file="res://235574__simosco__shower.wav"
+dest_files=[ "res://.import/235574__simosco__shower.wav-b45fe6fda105f9ddb9ad7d041244cbc5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
