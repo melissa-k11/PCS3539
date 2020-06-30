@@ -2,13 +2,13 @@ extends OmniLight
 var sit: int=0
 var player = AudioStreamPlayer.new()
 func _ready():
-	pass
+	self.add_child(player)
 	
 
 func _input (event):
 	if Input.is_key_pressed(KEY_Y):
 		if sit==0:
-			self.add_child(player)
+			
 			player.stream=load("res://luz_on.wav")
 			player.play()
 			show()
