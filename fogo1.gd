@@ -5,7 +5,7 @@ func _ready():
 	
 
 func _input (event):
-	if Input.is_key_pressed(KEY_9):
+	if Input.is_key_pressed(KEY_7):
 		if sit==0:
 			$AudioStreamPlayer3D.play()
 			show()
