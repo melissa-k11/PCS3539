@@ -32,6 +32,5 @@ func _input (event):
 		if quarto==51: 
 			$"AudioStreamPlayer3D dia".stop()
 		if quarto==52:
-			sit=1
-			$"AudioStreamPlayer3D dia".play()
+			sit=0
 			quarto=1
