@@ -35,5 +35,6 @@ func _input (event):
 			if quarto==52:
 				$"AudioStreamPlayer3D noite".stream=load("res://361088_klankbeeld_city-night-hum-01-160927-0989 (online-audio-converter.com) (1).wav")
 				$"AudioStreamPlayer3D noite".play()
-				sit=1
+				show()
+				sit=0
 				quarto=1
