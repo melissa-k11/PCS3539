@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/422245__humanoide9000__force-field.wav-b812c02ed6d3b3536b5ba2cf1d9af678.sample"
+
+[deps]
+
+source_file="res://422245__humanoide9000__force-field.wav"
+dest_files=[ "res://.import/422245__humanoide9000__force-field.wav-b812c02ed6d3b3536b5ba2cf1d9af678.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
